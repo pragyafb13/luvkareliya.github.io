@@ -1,0 +1,52 @@
+body {
+	background-color: #EEE;
+font-family: math, system-ui, sans-serif;
+}
+
+
+#header{
+   background-color: #FF6666;
+   color:black;
+   
+}
+
+#container{
+	background-color: white;
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+	padding: 10px;
+} 
+
+#main{
+		width: 600px;
+		float: right;
+}
+#main img{
+	width:400px;
+	height:200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#navigation{
+	width: 180px;
+	margin-left: 25px;
+	background-color:#EEEEEE; 
+}
+h1 {
+	padding: 10px;
+}
+
+#footer{
+	clear: both;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	background-color:#FF6666;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 0px;
+}
