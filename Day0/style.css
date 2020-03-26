@@ -22,14 +22,16 @@ font-family: math, system-ui, sans-serif;
 } 
 
 #main{
-		width: 600px;
+		width: 700px;
 		float: right;
 }
 #main img{
-	width:400px;
+	display: block;
+    width:350px;
 	height:200px;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 10px;
 }
 
 #navigation{

@@ -22,7 +22,7 @@ font-family: math, system-ui, sans-serif;
 } 
 
 #main{
-		width: 600px;
+		width: 700px;
 		float: right;
 }
 #main img{
@@ -31,9 +31,20 @@ font-family: math, system-ui, sans-serif;
 	margin-right: auto;
 	margin-left: auto;
 }
-.image1{
-padding: 10px;
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
 }
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
 #navigation{
 	width: 180px;
 	margin-left: 25px;
