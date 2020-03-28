@@ -1916,8 +1916,8 @@ button,
     padding-right: 2.75em; }
 
 #sidebar {
-  -moz-flex-grow: 0;
-  -webkit-flex-grow: 0;
+  -moz-flex-grow: 2;
+  -webkit-flex-grow: 2;
   -ms-flex-grow: 0;
   flex-grow: 0;
   -moz-flex-shrink: 0;
