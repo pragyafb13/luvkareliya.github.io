@@ -1998,7 +1998,7 @@ button,
       width: inherit; }
   #sidebar.inactive {
     margin-left: -26em; }
-  @media screen and (max-width: 1680px) {
+  @media screen and (max-width: 500px) {
     #sidebar {
       width: 24em; }
       #sidebar > .inner {
