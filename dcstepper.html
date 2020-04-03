@@ -1,0 +1,153 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Stepper motors and holder</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="zero2maker.html">Zero2Maker</a></li>
+							<li><a href="project1.html">Project 1</a></li>
+						</ul>
+						
+					</nav>
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h1>Faults in design and working with a unipolar stepper motor</h1>
+									</header>
+									<!--
+									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+								    -->
+								    <p>As mentioned before, I made a design of a motor holder and 3D printed it.</p>
+								    <style type="text/css">
+								    	img {
+								    		max-width: 100%;
+								    		width: 700px;
+								    		padding: 10px;
+								    		margin-left:200px;
+								    	margin-right: auto;
+
+								    	}
+								    </style>
+								    <img src="images/holder.png" alt="" />
+
+
+                                    <p>This was my initial idea, to create clamps which would hold the stepper motor. But my design was flawed, and that’s because of two reasons: 1) the circumference of the base was not exactly similar to the motor's circumference. 2) the clamps were too thin, two of them broke apart as I tried to place the motor inside it. I was left with no option but to use a glue gun and fix the motor on the base.</p>
+
+
+                                    <p>This was my first failure in this project. After attaching the holder to the mount, I started working on Arduino and learned the mechanism of unipolar stepper motors.</p>
+                                    <img src="images/holder1.png" alt="" />
+
+
+                                     <p>After a couple of hours of learning Arduino sketches of stepper motors and finally getting to code and upload it, I found out another fault in the system. My motors would work fine and the mount was rotating as expected, but when I attached the optical tube to it, it stopped working. My 28BYJ-48 DC unipolar stepper motor was lacking torque.</p>
+
+
+									
+								</div>
+							</section>
+
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">kareliyaluv@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>+91 63355922389</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>Gurukul road,<br />Memnagar,<br />
+											Ahmedabad, Gujarat,<br />
+											India
+										</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
